@@ -25,7 +25,7 @@
     Private Sub Btn_Login_Click(sender As Object, e As EventArgs) Handles Btn_Login.Click
         Dim userid As String = Txt_Aadharno.Text
         sqlconn = New SqlClient.SqlConnection
-        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha.mdf;Integrated Security=True;Connect Timeout=30"
+        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani.mdf;Integrated Security=True;Connect Timeout=30"
 
         Try
             If sqlconn.State = ConnectionState.Closed Then
@@ -83,7 +83,7 @@
     Private Sub Btn_Logout_Click(sender As Object, e As EventArgs) Handles Btn_Logout.Click
 
         sqlconn = New SqlClient.SqlConnection
-        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha.mdf;Integrated Security=True;Connect Timeout=30"
+        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani.mdf;Integrated Security=True;Connect Timeout=30"
         Try
             If sqlconn.State = ConnectionState.Closed Then
                 sqlconn.Open()

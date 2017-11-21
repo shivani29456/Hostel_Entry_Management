@@ -20,7 +20,7 @@
     Private Sub Btn_Save_Click(sender As Object, e As EventArgs) Handles Btn_Save.Click
 
         sqlconn = New SqlClient.SqlConnection
-        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha.mdf;Integrated Security=True;Connect Timeout=30"
+        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani.mdf;Integrated Security=True;Connect Timeout=30"
         Try
             sqlconn.Open()
 
@@ -81,17 +81,9 @@
 
     End Sub
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+    
 
-    End Sub
-
-    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
-
-    End Sub
-
-    Private Sub Txt_State_TextChanged(sender As Object, e As EventArgs) Handles Txt_State.TextChanged
-
-    End Sub
+    
 
     Private Sub Btn_Reset_Click(sender As Object, e As EventArgs) Handles Btn_Reset.Click
 

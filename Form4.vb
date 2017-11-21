@@ -3,7 +3,7 @@
 
 
 
-    Dim connection As New SqlClient.SqlConnection("Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha.mdf;Integrated Security=True;Connect Timeout=30")
+    Dim connection As New SqlClient.SqlConnection("Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani.mdf;Integrated Security=True;Connect Timeout=30")
 
 
 
@@ -25,10 +25,10 @@
     End Sub
 
     Private Sub Search_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: This line of code loads data into the 'AnuradhaDataSet2.Student' table. You can move, or remove it, as needed.
-        Me.StudentTableAdapter.Fill(Me.AnuradhaDataSet2.Student)
-        'TODO: This line of code loads data into the 'AnuradhaDataSet2.Log_Track' table. You can move, or remove it, as needed.
-        Me.Log_TrackTableAdapter.Fill(Me.AnuradhaDataSet2.Log_Track)
+        'TODO: This line of code loads data into the 'ShivaniDataSet2.Student' table. You can move, or remove it, as needed.
+        Me.StudentTableAdapter.Fill(Me.ShivaniDataSet2.Student)
+        'TODO: This line of code loads data into the 'ShivaniDataSet2.Log_Track' table. You can move, or remove it, as needed.
+        Me.Log_TrackTableAdapter.Fill(Me.ShivaniDataSet2.Log_Track)
 
         DataGridView1.Visible = False
         FilterData("")
