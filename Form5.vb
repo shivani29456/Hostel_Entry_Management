@@ -1,8 +1,8 @@
 ﻿Public Class Update_Form
 
     Private Sub Update_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'TODO: This line of code loads data into the 'AnuradhaDataSet2.Student' table. You can move, or remove it, as needed.
-        ' Me.StudentTableAdapter.Fill(Me.AnuradhaDataSet2.Student)
+        'TODO: This line of code loads data into the 'ShivaniDataSet2.Student' table. You can move, or remove it, as needed.
+        ' Me.StudentTableAdapter.Fill(Me.ShivaniDataSet2.Student)
         DataGridView1.Visible = False
         Cmb_Branch.Items.Add("CSE")
         Cmb_Branch.Items.Add("IT")
@@ -41,7 +41,7 @@
     End Sub
 
     Dim sqlconn As SqlClient.SqlConnection
-    Dim connection As New SqlClient.SqlConnection("Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha.mdf;Integrated Security=True;Connect Timeout=30")
+    Dim connection As New SqlClient.SqlConnection("Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani.mdf;Integrated Security=True;Connect Timeout=30")
 
     Dim command As SqlClient.SqlCommand
 
@@ -65,7 +65,7 @@
 
 
         sqlconn = New SqlClient.SqlConnection
-        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha.mdf;Integrated Security=True;Connect Timeout=30"
+        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani.mdf;Integrated Security=True;Connect Timeout=30"
         Try
             sqlconn.Open()
 
@@ -163,7 +163,7 @@
 
             DataGridView1.Rows.RemoveAt(DataGridView1.SelectedRows(0).Index)
             sqlconn = New SqlClient.SqlConnection
-            sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha.mdf;Integrated Security=True;Connect Timeout=30"
+            sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani.mdf;Integrated Security=True;Connect Timeout=30"
             Try
                 sqlconn.Open()
 
