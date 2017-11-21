@@ -56,7 +56,7 @@
 
     Private Sub Login_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         sqlconn = New SqlClient.SqlConnection
-        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha.mdf;Integrated Security=True;Connect Timeout=30"
+        sqlconn.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani.mdf;Integrated Security=True;Connect Timeout=30"
         Try
             sqlconn.Open()
             ' MessageBox.Show("Connection Successful")
