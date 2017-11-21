@@ -85,20 +85,20 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnuradhaDataSet.Designer.vb">
+    <Compile Include="ShivaniDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>AnuradhaDataSet.xsd</DependentUpon>
+      <DependentUpon>ShivaniDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="AnuradhaDataSet1.Designer.vb">
+    <Compile Include="ShivaniDataSet1.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>AnuradhaDataSet1.xsd</DependentUpon>
+      <DependentUpon>ShivaniDataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="AnuradhaDataSet2.Designer.vb">
+    <Compile Include="ShivaniDataSet2.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>AnuradhaDataSet2.xsd</DependentUpon>
+      <DependentUpon>ShivaniDataSet2.xsd</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -180,38 +180,38 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="AnuradhaDataSet.xsc">
-      <DependentUpon>AnuradhaDataSet.xsd</DependentUpon>
+    <None Include="ShivaniDataSet.xsc">
+      <DependentUpon>ShivaniDataSet.xsd</DependentUpon>
     </None>
-    <None Include="AnuradhaDataSet.xsd">
+    <None Include="ShivaniDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AnuradhaDataSet.Designer.vb</LastGenOutput>
+      <LastGenOutput>ShivaniDataSet.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="AnuradhaDataSet.xss">
-      <DependentUpon>AnuradhaDataSet.xsd</DependentUpon>
+    <None Include="ShivaniDataSet.xss">
+      <DependentUpon>ShivaniDataSet.xsd</DependentUpon>
     </None>
-    <None Include="AnuradhaDataSet1.xsc">
-      <DependentUpon>AnuradhaDataSet1.xsd</DependentUpon>
+    <None Include="ShivaniDataSet1.xsc">
+      <DependentUpon>ShivaniDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="AnuradhaDataSet1.xsd">
+    <None Include="ShivaniDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AnuradhaDataSet1.Designer.vb</LastGenOutput>
+      <LastGenOutput>ShivaniDataSet1.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="AnuradhaDataSet1.xss">
-      <DependentUpon>AnuradhaDataSet1.xsd</DependentUpon>
+    <None Include="ShivaniDataSet1.xss">
+      <DependentUpon>ShivaniDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="AnuradhaDataSet2.xsc">
-      <DependentUpon>AnuradhaDataSet2.xsd</DependentUpon>
+    <None Include="ShivaniDataSet2.xsc">
+      <DependentUpon>ShivaniDataSet2.xsd</DependentUpon>
     </None>
-    <None Include="AnuradhaDataSet2.xsd">
+    <None Include="ShivaniDataSet2.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AnuradhaDataSet2.Designer.vb</LastGenOutput>
+      <LastGenOutput>ShivaniDataSet2.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="AnuradhaDataSet2.xss">
-      <DependentUpon>AnuradhaDataSet2.xsd</DependentUpon>
+    <None Include="ShivaniDataSet2.xss">
+      <DependentUpon>ShivaniDataSet2.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -225,12 +225,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Anuradha.mdf">
+    <Content Include="Shivani.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Anuradha_log.ldf">
+    <Content Include="Shivani_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Anuradha.mdf</DependentUpon>
+      <DependentUpon>Shivani.mdf</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
