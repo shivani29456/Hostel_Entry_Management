@@ -57,22 +57,22 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Anuradha.mdf;Integra"& _ 
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Shivani.mdf;Integra"& _ 
             "ted Security=True;Connect Timeout=30")>  _
-        Public ReadOnly Property AnuradhaConnectionString() As String
+        Public ReadOnly Property ShivaniConnectionString() As String
             Get
-                Return CType(Me("AnuradhaConnectionString"),String)
+                Return CType(Me("ShivaniConnectionString"),String)
             End Get
         End Property
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Anuradha\Documents\Anuradha"& _ 
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Shivani\Documents\Shivani"& _ 
             ".mdf;Integrated Security=True;Connect Timeout=30")>  _
-        Public ReadOnly Property AnuradhaConnectionString1() As String
+        Public ReadOnly Property ShivaniConnectionString1() As String
             Get
-                Return CType(Me("AnuradhaConnectionString1"),String)
+                Return CType(Me("ShivaniConnectionString1"),String)
             End Get
         End Property
     End Class
